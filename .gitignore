@@ -1,0 +1,42 @@
+# 🟢 Node.js 依存パッケージ
+node_modules/
+
+# 🟢 ビルドフォルダ（再生成可能）
+dist/  # Vite
+.next/  # Next.js
+build/  # Create React App
+dist-ssr/  # Next.js SSR ビルド
+
+# 🟢 環境変数（機密情報）
+.env
+.env.local
+.env.development
+.env.production
+
+# 🟢 ログ & キャッシュ
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 🟢 テストカバレッジ
+coverage/
+
+# 🟢 エディタ関連ファイル（VSCode, WebStorm など）
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 🟢 npm & yarn のロックファイル
+package-lock.json  # 必要なら含める
+yarn.lock
+pnpm-lock.yaml
+
+libs/
